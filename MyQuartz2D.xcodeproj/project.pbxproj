@@ -15,6 +15,7 @@
 		009EA27F1B7C767700006897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009EA27E1B7C767700006897 /* Images.xcassets */; };
 		009EA2821B7C767700006897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009EA2801B7C767700006897 /* LaunchScreen.xib */; };
 		009EA28E1B7C767700006897 /* MyQuartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009EA28D1B7C767700006897 /* MyQuartz2DTests.m */; };
+		009EA2991B7C772C00006897 /* DrawMyDefineImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 009EA2981B7C772C00006897 /* DrawMyDefineImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		009EA2871B7C767700006897 /* MyQuartz2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyQuartz2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009EA28C1B7C767700006897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009EA28D1B7C767700006897 /* MyQuartz2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyQuartz2DTests.m; sourceTree = "<group>"; };
+		009EA2971B7C772C00006897 /* DrawMyDefineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawMyDefineImage.h; path = ../DrawMyDefineImage.h; sourceTree = "<group>"; };
+		009EA2981B7C772C00006897 /* DrawMyDefineImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawMyDefineImage.m; path = ../DrawMyDefineImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				009EA2721B7C767700006897 /* AppDelegate.h */,
 				009EA2731B7C767700006897 /* AppDelegate.m */,
+				009EA2971B7C772C00006897 /* DrawMyDefineImage.h */,
+				009EA2981B7C772C00006897 /* DrawMyDefineImage.m */,
 				009EA2781B7C767700006897 /* ViewController.h */,
 				009EA2791B7C767700006897 /* ViewController.m */,
 				009EA27B1B7C767700006897 /* Main.storyboard */,
@@ -224,6 +229,7 @@
 			files = (
 				009EA2771B7C767700006897 /* MyQuartz2D.xcdatamodeld in Sources */,
 				009EA2741B7C767700006897 /* AppDelegate.m in Sources */,
+				009EA2991B7C772C00006897 /* DrawMyDefineImage.m in Sources */,
 				009EA27A1B7C767700006897 /* ViewController.m in Sources */,
 				009EA2711B7C767700006897 /* main.m in Sources */,
 			);
