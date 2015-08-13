@@ -33,14 +33,62 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="1fU-jZ-nlF" secondAttribute="centerY" id="kmo-4r-0YP"/>
                             <constraint firstAttribute="centerX" secondItem="1fU-jZ-nlF" secondAttribute="centerX" id="xb6-Fa-srC"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gg3-7y-HE9" appends="YES" id="UVa-xv-oFN"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gg3-7y-HE9">
+                    <connections>
+                        <segue destination="be1-ga-x6w" kind="showDetail" id="p0y-oU-TdE"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="169" y="486"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BMz-PF-PTs">
+            <objects>
+                <viewController id="be1-ga-x6w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thP-UG-GpQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="W6h-vS-SjW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d1v-JX-OO2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Zb-um-7TQ" customClass="DrawSmallYellowMan">
+                                <rect key="frame" x="73" y="54" width="455" height="491"/>
+                                <color key="backgroundColor" red="0.78461958740000004" green="0.95294117649999999" blue="0.62112961570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8Zb-um-7TQ" secondAttribute="height" multiplier="455:491" id="0WJ-iM-Qqd"/>
+                                    <constraint firstAttribute="height" constant="491" id="DeI-ch-pyv"/>
+                                    <constraint firstAttribute="width" constant="455" id="ZTR-5N-hHx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZTR-5N-hHx"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="8Zb-um-7TQ" secondAttribute="centerX" constant="-0.5" id="JWY-Wv-Fks"/>
+                            <constraint firstAttribute="centerY" secondItem="8Zb-um-7TQ" secondAttribute="centerY" constant="0.5" id="NbG-OY-9lm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jkv-xf-MEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="547"/>
         </scene>
     </scenes>
 </document>
